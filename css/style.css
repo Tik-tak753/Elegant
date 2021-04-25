@@ -3,9 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
 
     font-family: 'Open Sans', sans-serif;
+}
+body h2{
+    color: #d4af37;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+body h3{
+    font-size: 44px;
+    color: #4d5c66;
+    font-weight: 600;
 }
 /*header*/
 header{
@@ -60,3 +72,35 @@ font-style: italic;
 
 }
 /*section_title*/
+
+/*section_who_we_are*/
+.section_who_we_are .container{
+    padding-top: 81px;
+    max-width: 769px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section_who_we_are .container h2{
+    margin: 0 auto 22px;
+}
+.section_who_we_are .container article h3{
+    margin: 0 auto 54px;
+}
+.section_who_we_are .container article p{
+    margin: 0 auto 54px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    
+}
+.section_who_we_are .container article a{
+    display: block;
+    text-decoration: none;
+    color: #021725;
+    font-size: 14px;
+    line-height: 54px;
+    border: solid 1px #000000;
+    width: 238px;
+    margin: 0 auto;
+}
+/*section_who_we_are*/
