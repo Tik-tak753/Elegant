@@ -94,6 +94,7 @@ font-style: italic;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
+    color: #021725;
     
 }
 .section_who_we_are .container article a{
@@ -130,3 +131,36 @@ align-content: center;
     margin-bottom: 2px;
 }
 /*section_what_we_do*/
+/*personal_info*/
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.personal_info{
+   width: 33%;
+}
+.personal_info h4,.personal_info h5,.personal_info p{
+  text-align: left;
+    padding: 0 18px;
+}
+.personal_info h4{
+    margin: 20px 0 22px;
+    
+}
+.personal_info h5{
+    font-size: 21px;
+    margin-bottom: 35px;
+    
+}
+.personal_info p{
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #021725;
+}
+
+
+
+
+/*personal_info*/
