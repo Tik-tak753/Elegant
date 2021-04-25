@@ -1,0 +1,89 @@
+@media only screen and (max-width: 997px){
+
+}
+@media only screen and (max-width: 769px){
+header{
+    position: fixed;
+    background-color: rgba(36, 47, 53, 0.7);
+    padding: 12px 30px;
+}
+    header .container .logo img{
+        width: 100%;
+    }
+    header .container .header_menu_title {
+        display: none;
+    }
+    .section_page_title{
+        background-image: url("../images/bg1_01.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+}
+    .section_page_title h1{
+        font-size: 95px;
+    }
+    .section_title{
+        font-size: 29px;
+    }
+    .section_subtitle {
+        font-size: 90px;
+    }
+    .section_who_we_are .container article a,.section_post .container a{
+        font-size: 27px;
+        width: 460px;
+        line-height: 110px;
+    }
+    .section_post .wrapper article a{
+        line-height: 96px;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery img,.section_who_we_are .wrapper .personal_info{
+        width: 100%;
+        flex-basis: 0;
+    }
+    .wrapper .personal_info img{
+    display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .wrapper .personal_info{
+        margin-bottom: 150px;
+    }
+    .section_who_we_are .container article p,.section_who_we_are .wrapper .personal_info p,.section_who_we_are .wrapper .personal_info h5{
+        font-size: 29px;
+    }
+
+    .section_who_we_are .wrapper,.section_post .wrapper,footer .container{
+        flex-direction: column;
+    }
+    footer .container,.section_contact_us .wrapper .contacts_info{
+        font-size: 30px;
+    }
+    .contacts_info p:first-child{
+        font-size: 28px;
+    }
+    .contacts_info p:nth-child(all){
+        width: 35%;
+    }
+    .section_post .wrapper article {
+        font-size: 29px;
+    }
+    .section_post .wrapper article h5{
+        font-size: 60px;
+    }
+
+}
+@media only screen and (max-width: 412px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
+@media only screen and (max-width: 320px){
+
+}

@@ -121,7 +121,7 @@ font-style: italic;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-align-content: center;
+    align-content: center;
 
 }
 .gallery img{
@@ -139,7 +139,9 @@ align-content: center;
 }
 .personal_info{
    width: 33%;
+
 }
+
 .personal_info h4,.personal_info h5,.personal_info p{
   text-align: left;
     padding: 0 18px;
@@ -189,7 +191,6 @@ align-content: center;
     text-align: center;
     width: 126px;
     color: #021725;
-    font-size: 14px;
     margin: 56px 0 0;
 
 
