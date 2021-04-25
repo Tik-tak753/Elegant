@@ -8,17 +8,18 @@ body{
 
     font-family: 'Open Sans', sans-serif;
 }
-body h2{
-    color: #d4af37;
-    font-weight: 600;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-body h3{
-    font-size: 44px;
-    color: #4d5c66;
-    font-weight: 600;
-}
+/*body h2{*/
+/*    color: #d4af37;*/
+/*    font-weight: 600;*/
+/*    font-size: 13px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+/*body h3{*/
+/*    font-size: 44px;*/
+/*    color: #4d5c66;*/
+/*    font-weight: 600;*/
+/*}*/
+
 /*header*/
 header{
     padding: 0 48px;
@@ -81,10 +82,17 @@ font-style: italic;
     text-align: center;
 }
 .section_who_we_are .container h2{
+    color: #d4af37;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
     margin: 0 auto 22px;
 }
 .section_who_we_are .container article h3{
     margin: 0 auto 54px;
+    font-size: 44px;
+    color: #4d5c66;
+    font-weight: 600;
 }
 .section_who_we_are .container article p{
     margin: 0 auto 54px;
