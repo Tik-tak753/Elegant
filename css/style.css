@@ -8,17 +8,19 @@ body{
 
     font-family: 'Open Sans', sans-serif;
 }
-/*body h2{*/
-/*    color: #d4af37;*/
-/*    font-weight: 600;*/
-/*    font-size: 13px;*/
-/*    text-transform: uppercase;*/
-/*}*/
-/*body h3{*/
-/*    font-size: 44px;*/
-/*    color: #4d5c66;*/
-/*    font-weight: 600;*/
-/*}*/
+
+
+.section_title{
+    color: #d4af37;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.section_subtitle{
+    font-size: 44px;
+    color: #4d5c66;
+    font-weight: 600;}
+
 
 /*header*/
 header{
@@ -50,8 +52,8 @@ header .container .header_menu_title{
     font-weight: 600;
 }
 /*header*/
-/*section_title*/
-.section_title{
+/*section_page_title*/
+.section_page_title{
     background-image: url("../images/bg_01.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -62,37 +64,30 @@ header .container .header_menu_title{
     align-items: center;
     justify-content: center;
 }
-.section_title h1{
+.section_page_title h1{
     color: #ffffff;
     font-size: 80px;
     text-align: center;
     font-weight: 300;
 }
-.section_title h1 span{
+.section_page_title h1 span{
 font-style: italic;
 
 }
-/*section_title*/
+/*section_page_title*/
 
 /*section_who_we_are*/
-.section_who_we_are .container{
-    padding-top: 81px;
+.section_who_we_are .container, .section_what_we_do .container{
     max-width: 769px;
     margin: 0 auto;
     text-align: center;
 }
 .section_who_we_are .container h2{
-    color: #d4af37;
-    font-weight: 600;
-    font-size: 13px;
-    text-transform: uppercase;
-    margin: 0 auto 22px;
+    margin: 81px auto 22px;
 }
 .section_who_we_are .container article h3{
     margin: 0 auto 54px;
-    font-size: 44px;
-    color: #4d5c66;
-    font-weight: 600;
+
 }
 .section_who_we_are .container article p{
     margin: 0 auto 54px;
@@ -112,3 +107,26 @@ font-style: italic;
     margin: 0 auto;
 }
 /*section_who_we_are*/
+
+/*section_what_we_do*/
+.section_what_we_do h2{
+    margin: 163px auto 25px;
+
+}
+.section_what_we_do h3{
+    margin: 0 auto 92px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+align-content: center;
+
+}
+.gallery img{
+    display: block;
+    width: 24.9%;
+    flex-basis: 2px;
+    margin-bottom: 2px;
+}
+/*section_what_we_do*/
