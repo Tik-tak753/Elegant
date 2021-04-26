@@ -226,9 +226,7 @@ font-style: italic;
     display: block;
 
 }
-.section_contact_us .container a img{
-    width: 100%;
-}
+
 .section_contact_us .wrapper{
     display: flex;
     max-width: 769px;

@@ -47,7 +47,7 @@ header{
     }
     .wrapper .personal_info img{
     display: block;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -64,12 +64,15 @@ header{
     footer .container,.section_contact_us .wrapper .contacts_info{
         font-size: 30px;
     }
+    .contacts_info p{
+        font-size: 26px;
+    }
     .contacts_info p:first-child{
         font-size: 28px;
     }
 
     .map{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -83,7 +86,7 @@ header{
     padding: 10px 0;
 }
 }
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 414px){
 
 }
 @media only screen and (max-width: 375px){
