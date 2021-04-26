@@ -212,10 +212,11 @@ font-style: italic;
 }
 /*section_post*/
 /*section_contact_us*/
-
+.map{
+    max-width: 100%;
+}
 .section_contact_us .container h2{
     margin:160px 0 22px;
-
 }
 .section_contact_us .container h3{
     margin-bottom: 55px;
