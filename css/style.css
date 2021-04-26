@@ -139,6 +139,7 @@ font-style: italic;
 }
 .personal_info{
    width: 33%;
+    background-color: #f9f9f9;
 
 }
 
@@ -173,6 +174,7 @@ font-style: italic;
     display: flex;
     align-items: center;
     margin-bottom: 84px;
+    background-color: #f9f9f9;
 
 }
 .section_post .wrapper img{
@@ -209,6 +211,9 @@ font-style: italic;
 }
 /*section_post*/
 /*section_contact_us*/
+.section_contact_us{
+    background-color: #f9f9f9;
+}
 .section_contact_us .container h2{
     margin:160px 0 22px;
 

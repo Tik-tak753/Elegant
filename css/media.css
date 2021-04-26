@@ -67,9 +67,9 @@ header{
     .contacts_info p:first-child{
         font-size: 28px;
     }
-    .contacts_info p:nth-child(all){
-        width: 35%;
-    }
+
+
+
     .section_post .wrapper article {
         font-size: 29px;
     }
