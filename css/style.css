@@ -212,9 +212,7 @@ font-style: italic;
 }
 /*section_post*/
 /*section_contact_us*/
-.section_contact_us{
-    background-color: #f9f9f9;
-}
+
 .section_contact_us .container h2{
     margin:160px 0 22px;
 
@@ -235,6 +233,7 @@ font-style: italic;
     margin: 0 auto 126px;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #f9f9f9;
 }
 .section_contact_us .wrapper .contacts_info{
     text-align: center;
