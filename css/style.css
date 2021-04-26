@@ -174,7 +174,7 @@ font-style: italic;
     display: flex;
     align-items: center;
     margin-bottom: 84px;
-    background-color: #f9f9f9;
+
 
 
 }
@@ -187,6 +187,7 @@ font-style: italic;
     color: #021725;
     padding: 40px;
     font-weight: 300;
+    background-color: #f9f9f9;
 
 
 }
