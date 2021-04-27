@@ -215,6 +215,7 @@ font-style: italic;
 /*section_contact_us*/
 .map{
     max-width: 100%;
+    margin: 0 auto;
 }
 .section_contact_us .container h2{
     margin:160px 0 22px;
@@ -268,5 +269,6 @@ footer .container{
     font-weight: 300;
     color: #505d68;
     font-size: 16px;
+    line-height: 53px;
 }
 /*footer*/

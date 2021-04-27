@@ -30,6 +30,12 @@ header{
     .section_subtitle {
         font-size: 90px;
     }
+
+
+    .section_contact_us,.section_who_we_are,.section_post{
+        padding: 0 30px;
+
+    }
     .section_who_we_are .container article a,.section_post .container a{
         font-size: 27px;
         width: 460px;
@@ -46,7 +52,7 @@ header{
         flex-basis: 0;
     }
     .wrapper .personal_info img{
-    display: block;
+        display: block;
         width: 100%;
         margin: 0 auto;
     }
@@ -72,7 +78,7 @@ header{
     }
 
     .map{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
 
