@@ -272,3 +272,74 @@ footer .container{
     line-height: 53px;
 }
 /*footer*/
+
+/*about*/
+.section_page_title_about{
+    background-image: url("../images/about_01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.section_about_description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.section_about_description p{
+    text-align: center;
+    max-width: 769px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #021725;
+    padding-left: 15px;
+}
+.section_services{
+    display: flex;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+}
+.section_services img{
+    display: block;
+    width: 50%;
+}
+.section_services .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 46px;
+    align-items: center;
+
+}
+.section_services .wrapper ul{
+    list-style: none;
+    width: 50%;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #021725;
+
+}
+.section_services .wrapper article{
+    width: 50%;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #021725;
+}
+.section_services .wrapper article h1{
+    margin-bottom: 90px;
+    font-size: 45px;
+}
+.section_services .wrapper article p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #021725;
+    padding-left: 15px;
+    width: 60%;
+
+}
+/*about*/
