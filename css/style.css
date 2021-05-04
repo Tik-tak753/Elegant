@@ -126,8 +126,7 @@ font-style: italic;
 }
 .gallery img{
     display: block;
-    width: 24.9%;
-    flex-basis: 2px;
+    width: 25%;
     margin-bottom: 2px;
 }
 /*section_what_we_do*/
