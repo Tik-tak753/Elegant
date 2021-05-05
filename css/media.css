@@ -91,7 +91,40 @@ header{
 .section_contact_us{
     padding: 10px 0;
 }
+    /*about*/
+    .section_about_description p{
+        font-size: 34px;
+    }
+    .section_services{
+        flex-wrap: wrap;
+    }
+    .section_services img{
+        width: 100%;
+    }
+    .section_services .wrapper{
+        flex-direction: column;
+    }
+    .section_services .wrapper article{
+        width: 100%;
+        font-size: 34px;
+    }
+    .section_services .wrapper article h1{
+        font-size: 84px;
+    }
+    .section_services .wrapper article p{
+        width: 100%;
+        margin-bottom: 170px;
+        font-size: 34px;
+        padding: 0;
+
+    }
+    .section_services .wrapper ul{
+        width: 100%;
+        font-size: 34px;
+    }
+    /*about*/
 }
+
 @media only screen and (max-width: 414px){
 
 }

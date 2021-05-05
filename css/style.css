@@ -294,12 +294,13 @@ footer .container{
     line-height: 32px;
     font-weight: 300;
     color: #021725;
-    padding-left: 15px;
+
 }
 .section_services{
     display: flex;
     background-color: #f9f9f9;
     justify-content: space-between;
+
 }
 .section_services img{
     display: block;
@@ -331,6 +332,7 @@ footer .container{
 .section_services .wrapper article h1{
     margin-bottom: 90px;
     font-size: 45px;
+    margin-top: 50px;
 }
 .section_services .wrapper article p{
     font-size: 18px;
