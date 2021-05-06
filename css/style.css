@@ -344,3 +344,15 @@ footer .container{
 
 }
 /*about*/
+
+/*work*/
+.section_page_title_work{
+    background-image: url("../images/work_01.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+/*work*/
