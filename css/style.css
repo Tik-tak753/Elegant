@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -352,7 +353,14 @@ footer .container{
     background-position: center center;
     background-size: cover;
     height: 100vh;
-
-
 }
 /*work*/
+/*blog*/
+.section_page_title_blog{
+    background-image: url("../images/blog_01.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+/*blog*/
