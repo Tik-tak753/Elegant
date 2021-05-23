@@ -6,58 +6,24 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elegant</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<!--<header>-->
-<!--    <div class="container">-->
-<!--    <a href="#" class="logo">-->
-<!--        <img src="images/logo_03.png" alt="logo">-->
-<!--    </a>-->
-<!--    <span class="header_menu_title">Menu</span>-->
-<!--    </div>-->
-<!--</header>-->
-<div class="owl-carousel">
-    <div>
-        <header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="images/logo_03.png" alt="logo">
-            </a>
-            <span class="header_menu_title">Menu</span>
-        </div>
-    </header>
-        <section class="section_page_title">
-            <h1>Say <span>Haloa</span> to your Portfolio</h1>
-        </section>
+<header>
+    <div class="container">
+    <a href="#" class="logo">
+        <img src="images/logo_03.png" alt="logo">
+    </a>
+    <span class="header_menu_title">Menu</span>
     </div>
-    <div>  <header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="images/logo_03.png" alt="logo">
-            </a>
-            <span class="header_menu_title">Menu</span>
-        </div>
-    </header>
-        <section class="section_page_title">
-            <h1>Say <span>Haloa</span> to your Portfolio</h1>
-        </section> </div>
-    <div>  <header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="images/logo_03.png" alt="logo">
-            </a>
-            <span class="header_menu_title">Menu</span>
-        </div>
-    </header>
-        <section class="section_page_title">
-            <h1>Say <span>Haloa</span> to your Portfolio</h1>
-        </section> </div>
-</div>
-<!--<section class="section_page_title">-->
-<!--    <h1>Say <span>Haloa</span> to your Portfolio</h1>-->
-<!--</section>-->
+</header>
+<section class="section_page_title">
+    <h1>Say <span>Haloa</span> to your Portfolio</h1>
+</section>
 <section class="section_who_we_are">
     <div class="container">
         <h2 class="section_title">Who we Are</h2>
@@ -70,7 +36,19 @@
                 Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
                 Eodem modo typi, qui nunc, fiant sollemnes in futurum.
             </p>
-            <a href="about.html">Read More About Us</a>
+            <div id="dialog" class="password" title="FORGOT YOUR PASSWORD?">
+                <form method="post">
+                    <label for="mail">ENTER YOUR
+                        EMAIL
+                        <input type="email" id="mail">
+                    </label>
+                    <button class="btn_1" type="reset">RESET PASSWORD</button>
+                    <span>or</span>
+                    <button class="btn_2" type="submit"><i class="fab fa-facebook-f"></i> Log In Using Facebook</button>
+                </form>
+            </div>
+            <button id="opener">Read More About Us</button>
+<!--            <a href="about.html">Read More About Us</a>-->
         </article>
     </div>
 </section>
@@ -193,12 +171,31 @@
         <p>Email: imdiogodantas@gmail.com</p>
     </div>
 </footer>
-<script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/script.js"></script>
+<!--<script-->
+<!--        src="https://code.jquery.com/jquery-2.2.4.min.js"-->
+<!--        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="-->
+<!--        crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
+</script>
 
 </body>
 </html>
